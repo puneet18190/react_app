@@ -43,7 +43,6 @@ var Body = React.createClass({
     		success: () => { 
     			console.log('you did it!!!'); 
     			this.updateItems(item); 
-    			// callback to swap objects 
     		} 
     	})
     },

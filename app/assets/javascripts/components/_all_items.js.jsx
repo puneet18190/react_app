@@ -1,7 +1,6 @@
 var AllItems = React.createClass({ 
 
 	handleDelete(id) {
-        // console.log('delete item clicked');
         this.props.handleDelete(id);
     },
 
